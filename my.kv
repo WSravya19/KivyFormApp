@@ -1,0 +1,20 @@
+BoxLayout:
+    orientation: 'vertical'
+    padding: 20
+    spacing: 10
+
+    TextInput:
+        id: name
+        hint_text: "Enter Name"
+
+    TextInput:
+        id: email
+        hint_text: "Enter Email"
+
+    TextInput:
+        id: mobile
+        hint_text: "Enter Mobile Number"
+
+    Button:
+        text: "Submit"
+        on_press: app.save_data()
